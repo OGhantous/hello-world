@@ -3,6 +3,8 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Heart)
+    music.playTone(Note.G, 10000000)
+    music.setVolume(255)
 })
 basic.showIcon(IconNames.Yes)
 basic.pause(100)
